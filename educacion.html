@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Miguel Vivanco">
+    <meta name="keywords" content="curriculum,html,oracle,web">
+    <meta name="description" content="Hoja de Vida de Miguel Vivanco">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <h1><svg style="border: 0px solid black;" width="35mm" height="20mm">
+        <image xlink:href="images/logo.svg"  x="10px" y="0px"></image>
+      </svg>
+      <br>Hoja de Vida
+    </h1>
+    </header>
+    <h2>Datos Personales</h2>
+    <h3>Nombre: Miguel Vivanco Jara <br> Fecha de Nacimiento: 1975-11-04 <br> Lugar de Nacimiento: Lima-Peru</h3>
+    <h2>Enlaces de Menú</h2>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li> <a href="educacion.html">Educación</a> </li>
+      <li> <a href="experiencia.html">Experiancia</a> </li>
+    </ul>
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1992</td>
+          <td>Diseño de Máquinas</td>
+          <td>SENATI</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2006</td>
+          <td>Ingeniero Industrial</td>
+          <td>Universidad del Callao</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Oracle 11g PL/SQL</td>
+          <td>Cibertec</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Desaroolo Web</td>
+          <td>Next U</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Agregar Estudios</h2>
+    <form class="" action="index.html" method="post" >
+      <p>
+        <label for="Year">Año:</label>
+        <select class="" name="Year">
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+        </select>
+      </p>
+      <p>
+        <label for="Institute">Institución:</label>
+        <input type="text" name="Institute" value="" placeholder="I.E.">
+      </p>
+      <p>
+        <label for="Place">Lugar:</label>
+        <textarea name="Place" rows="2" cols="35"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar">
+      </p>
+    </form>
+
+    <footer>
+      <p>
+        Contacto:<br>
+        email: <a href="mailto:miguel.vivanco@outlook.com">miguel.vivanco@outlook.com</a><br>
+        telefono: 997-917-153 <br>
+        facebook: <a href="http://www.facebook.com/miguel.vivanco1">miguel.vivanco1</a>
+      </p>
+    </footer>
+  </body>
+</html>
